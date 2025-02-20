@@ -1,26 +1,22 @@
-# prosjekt-om-datasett
+# Produkt sammenligning via kassalapp
 
-Data er hentet fra [kaggle](https://www.kaggle.com/datasets/anandshaw2001/netflix-movies-and-tv-shows?resource=download) og innheloder:
+Skal bruke kassalapp til å hente forskjellige produkter og sammenligne dem. Da mer spesifikt handler det om å sammenligne pris på de forskjellige butikkene, er det mest attraktive. Det er to forskellige hoved filer, den ene (.ipynb) skal bruke pandas som hoved løsning, mens den andre (.py) er en mer "manuell" løsning.
+Etter dette fungerer er planen å integrere det i en handleliste app. 
 
-- show_id: Unique identifier for each show (s1, s2).
-- type: Specifies whether the title is a "Movie" or "TV Show".
-- title: The name of the Netflix title.
-- director: The director of the title
-- cast: The main actors involved in the title.
-- country: The country where the title was produced.
-- date_added: The date when the title was added to Netflix.
-- release_year: The year the title was originally released.
-- rating: The content rating ("PG-13", "TV-MA").
-- duration: Duration of the movie (in minutes) or the number of seasons for TV shows.
-- listed_in: Categories or genres the title falls under ("Documentaries", "TV Dramas").
-- description: The summary description
+## Test ut selv
+I .env må du ha din egen api nøkkel fra kassal. 
 
-## Manuell løsning
+```
+kassal_api_key = DIN_API_NØKKEL
+```
 
+Kanskje laste ned relevante bibliotek som requests osv.
 
-## Pandas løsning
+```
+pip install requests
+```
+
+## Eksempler på en kjøring av koden
 
 
-## Json til CSV & CSV til Json
 
-Gjør dette bare for å øve...
